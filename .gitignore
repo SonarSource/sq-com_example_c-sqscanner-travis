@@ -1,3 +1,9 @@
+### Each directory and file, which starts with dot
+.*
+### But not Git ignore and Travis file
+!.gitignore
+!.travis.yml
+
 # Output of compilation and tests
 build
 *.gcda
