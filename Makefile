@@ -1,6 +1,6 @@
 all:
 	mkdir build
-	clang -Wall -O0 -fprofile-arcs -ftest-coverage -o build/counter src/counter.c
+	gcc -Wall -O0 -fprofile-arcs -ftest-coverage -o build/counter src/counter.c
 
 test:
 	./build/counter 1 2 3
