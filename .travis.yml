@@ -16,7 +16,6 @@ script:
   - make test
   # And finally run the SonarQube analysis - read the "sonar-project.properties"
   # file to see the specific configuration
-  - exit 1
   - sonar-scanner
 
 cache:
