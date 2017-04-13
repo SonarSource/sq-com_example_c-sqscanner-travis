@@ -16,7 +16,7 @@ script:
   - make test
   # And finally run the SonarQube analysis - read the "sonar-project.properties"
   # file to see the specific configuration
-  - sonar-scanner
+  - sonar-scanner -Dsonar.projectDate=2010-12-01
 
 cache:
   directories:
