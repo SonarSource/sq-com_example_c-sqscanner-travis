@@ -23,3 +23,9 @@ files of this project to see it in practice.
 - [Documentation of the SonarQube Scanner](http://redirect.sonarsource.com/doc/install-configure-scanner.html)
 - [Documentation of the C/C++/Objective-C plugin and its with Build Wrapper](http://docs.sonarqube.org/x/pwAv)
 - [Documentation of the SonarQube.com Travis Add-on](https://docs.travis-ci.com/user/sonarqube/)
+
+### License
+
+Copyright 2016-2017 SonarSource.
+
+Licensed under the [GNU Lesser General Public License, Version 3.0](http://www.gnu.org/licenses/lgpl.txt)
