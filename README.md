@@ -8,9 +8,9 @@ It is very easy to run an analysis on a C/C++/Objective-C project and push it to
 
 1. Create a `sonar-project.properties` files to store your configuration
 2. In your `.travis.yml` file:
-  1. Activate the [Travis Add-on](https://docs.travis-ci.com/user/sonarqube/)
-  2. Wrap your compilation with the Build Wrapper
-  3. Run `sonar-scanner` later on
+   1. Activate the [Travis Add-on](https://docs.travis-ci.com/user/sonarcloud/)
+   2. Wrap your compilation with the Build Wrapper
+   3. Run `sonar-scanner` later on
 
 You can take a look at the
 [sonar-project.properties](https://github.com/SonarSource/sq-com_example_c-sqscanner-travis/blob/master/sonar-project.properties)
